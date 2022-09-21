@@ -16,3 +16,5 @@ export const fetchLukeSkywalker = async () => {
 
   return data as LukeSkywalker;
 };
+
+/** Used this solution to fix the error */

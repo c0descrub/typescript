@@ -1,7 +1,7 @@
 import { expect, it } from "vitest";
 import { Equal, Expect } from "./helpers/type-utils";
 
-const guitarists = new Set();
+const guitarists = new Set<string>(); /** I knew I had to type annotate somewhere up here. I tried it on Guitarists but got an error. Was unsure how to proceed. */
 
 guitarists.add("Jimi Hendrix");
 guitarists.add("Eric Clapton");
